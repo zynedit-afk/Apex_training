@@ -1,0 +1,60 @@
+print("if condition")
+a=20
+b=40  
+if a<b:
+  print("b is largest")
+print("elif condition")
+c=30
+if a<b:
+ print("a is grater")
+elif b<c:
+ print("c is grater")
+else:
+ print(" b is grater")
+print("if else statment")
+if a<b:
+  print("b is largest")
+else:
+  print("a is largest")
+print("nested if statment")
+cash=1000
+if cash<900:
+  print("cash is less then 900")
+  if cash==1000:
+    print("the cash is 1000")
+  else:
+      print("cash is connot be finded")
+else:
+      print("cash is more then 900")
+print("for loop condition")
+for i in range(0,6):
+  print(i)
+for i in range(0,6):
+   pass
+print("loop completed")
+print("while loop condition whith jump statment")  
+balance=10000
+while True:
+ print("1.check balance")
+ print("2.Deposite")
+ print("3.withdrow")
+ print("4.exit")
+ choice=(input("Enter your choice(1,2,3,4):"))
+ if choice=='1':
+    print("your balance is",balance)
+ elif choice=='2':
+     d=int(input("Enter the amount:"))
+     balance=balance+d
+     print("your current balance is",balance)
+ elif choice=='3':
+     w=int(input("Enter the withrawel amount:"))
+     if balance>=w:
+        balance=balance-w
+        print("your current balance is",balance)
+     else:
+        print("Insufficient balance")   
+ elif choice=='4':
+     print("thank you! come again")
+     break
+ else:
+     print("invalid input try again")   
