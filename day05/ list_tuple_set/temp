@@ -1,0 +1,78 @@
+#multiple datatype assign
+n_list=[2.9,3000,'Hello',"Welcome to python list ", True]
+print(n_list)
+ 
+# Nested List Example1
+n_list = ["Happy", [2, 0, 1, 5]]
+# Nested indexing
+print(n_list[0][3])
+print(n_list[1][2])
+ 
+# Nested List Example2
+my_list = ["mouse", [8, 4, 6], ['a','b','c']]
+print(my_list) 
+print(my_list[0])
+# Nested indexing
+print(my_list[1][1])
+print(my_list[2][2])
+
+   TUPLE
+  
+my_data = ("hi", "hello", "bye")
+print(my_data)
+# tuple of int, float, string
+my_data2 = (1, 2.8, "Hello World")
+print(my_data2)
+# tuples inside another tuple
+# nested tuple
+my_data4 = ((2, 3, 4), (1, 2, "hi"))
+print(my_data4)
+
+  Dictionary
+  
+  # 1. Empty dictionary
+my_dict = {}
+print("1. Empty Dictionary:", my_dict)
+
+
+# 2. Dictionary with integer keys
+my_dict = {1: 'apple', 2: 'ball'}
+print("2. Integer Keys:", my_dict)
+
+
+# 3. Dictionary with mixed keys
+my_dict = {'name': 'John', 1: [2, 4, 3]}
+print("3. Mixed Keys:", my_dict)
+
+
+# 4. Using dict()
+my_dict = dict({1: 'apple', 2: 'ball'})
+print("4. Using dict():", my_dict)
+
+
+# 5. From sequence (list of tuples)
+my_dict = dict([(1, 'apple'), (2, 'ball')])
+print("5. From Sequence:", my_dict)# 1. Empty dictionary
+my_dict = {}
+print("1. Empty Dictionary:", my_dict)
+
+
+# 2. Dictionary with integer keys
+my_dict = {1: 'apple', 2: 'ball'}
+print("2. Integer Keys:", my_dict)
+
+
+# 3. Dictionary with mixed keys
+my_dict = {'name': 'John', 1: [2, 4, 3]}
+print("3. Mixed Keys:", my_dict)
+
+
+# 4. Using dict()
+my_dict = dict({1: 'apple', 2: 'ball'})
+print("4. Using dict():", my_dict)
+
+
+# 5. From sequence (list of tuples)
+my_dict = dict([(1, 'apple'), (2, 'ball')])
+print("5. From Sequence:", my_dict)
+
