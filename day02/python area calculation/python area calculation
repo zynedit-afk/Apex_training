@@ -1,0 +1,30 @@
+import math
+
+while True:
+    print("\n1. Radius of Circle")
+    print("2. Area of Square")
+    print("3. Area of Rectangle")
+
+    choice = int(input("Choose an operation: "))
+
+    if choice == 1:
+        radius = float(input("Enter the Radius of Circle:"))
+        circle_area = math.pi * radius * radius
+        print("Radius of the circle =", round(circle_area))
+        break
+
+    elif choice == 2:
+        side = float(input("Enter the sides of Square:"))
+        area = side * side
+        print("Area of the square =", round(area))
+        break
+
+    elif choice == 3:
+        length = float(input("Enter the length of a rectangle: "))
+        width = float(input("Enter tthe width of rectangle"))
+        area = length * width
+        print("Area of the rectangle =", round(area))
+        break
+
+    else:
+        print("Invalid choice")
